@@ -1,2 +1,2 @@
 # E-Bike-Speedometer-and-BMS-Interface
-This repository includes information needed to built a small Electronics Control Units for an electric bicycle. 
+This repository includes information needed to built a small Electronics Control Units for an electric bicycle. The four components in this system include an Arduino Nano, 20x4 LCD screen, a Chinese made Battery Management System and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB design in Eagle and various information about the components required to build this system.
