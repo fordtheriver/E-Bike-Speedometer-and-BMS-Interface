@@ -1,0 +1,7 @@
+This Arduino sketch requires inclusion of the following libraries:
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include <EEPROM.h>
+#include <SoftwareSerial.h>
+
