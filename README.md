@@ -1,4 +1,8 @@
 # E-Bike-Speedometer-and-BMS-Interface
+
+**Update 2/22/19**
+The linear voltage regulator on [this](https://www.aliexpress.com/item/15S-Li-ion-Battery-Intelligent-Smart-BMS-with-Bluetooth-function-and-PC-software-UART-communication-PCB/32876909159.html?spm=a2g0s.13010208.99999999.263.70483c00UKdgf7) type of BMS is not designed to handle high amounts of current. The bluetooth module that comes with the BMS draws about 120 uA of current while the Arduino/LCD display draws about 60mA, which causes the LVR to get quite hot. I'm currently modifying the design to include [this](https://www.mouser.com/ProductDetail/108-PG02S4812A) DC/DC converter to power the Arduino. Scheduled to push updated design in 1 month
+
 This repository includes information needed to built a display to output relevant information for an electric bicycle. Speed, mileage, power, current, pack voltage and individual cell voltages are some of the values that this system can output. The four components in this system include an Arduino Nano, 20x4 LCD screen, a JBDTools Battery Management System and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
 Although I attached my code and eagle files, this is not a "plug-and-play" type project where I walk you through each step. I'm happy to answer questions or provide support but you will have to do a significant amount of reading yourself to implement this project. Successful completion of the project means you've learned serial communication, PCB design, Arduino programming and general embedded computing techniques. 
