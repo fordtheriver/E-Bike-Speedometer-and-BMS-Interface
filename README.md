@@ -20,3 +20,9 @@ Here is a brief list describing the necessary high level components for this sys
 
 
 6. EAGLE PCB design software. I used [OSHPark](https://oshpark.com/) to manufacture the PCB and had no issues. 
+
+High Level System Requirements:
+
+Input Voltage Range: 36 - 80 Volts
+System current draw at 12 Volts: 1 amp
+
