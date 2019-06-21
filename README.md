@@ -4,7 +4,7 @@
 
 This repository includes information needed to built a display to output relevant information for an electric bicycle. Speed, mileage, power, current, pack voltage and individual cell voltages are some of the values that this system can output. The five components in this system include an Arduino Nano, 20x4 LCD screen, a JBDTools-based Battery Management System, DC/DC converter and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
-Although I attached my code and eagle files, this is not a "plug-and-play" type project where I walk you through each step. I'm happy to answer questions or provide support but you will have to do a significant amount of reading yourself to implement this project. Successful completion of the project means you've learned serial communication, PCB design, Arduino programming and general embedded computing techniques. 
+My ebike uses the Cyclone 3000 ebike kit. The throttle/ignition has a built in switch on the B+ line. My system draws power from the B+ after this switch so that if the switch opens, the system turns off. I recommend configuring your system this way so that it only draws power when the bike is on.
 
 Here is a brief list describing the necessary high level components for this system.
 
