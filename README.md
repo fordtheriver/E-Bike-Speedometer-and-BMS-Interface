@@ -1,6 +1,6 @@
 # E-Bike-Speedometer-and-BMS-Interface
 
-**Updated 4/23/19**
+**Updated 6/21/19** Completed REV3
 
 This repository includes information needed to built a display to output relevant information for an electric bicycle. Speed, mileage, power, current, pack voltage and individual cell voltages are some of the values that this system can output. The five components in this system include an Arduino Nano, 20x4 LCD screen, a JBDTools-based Battery Management System, DC/DC converter and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
@@ -21,8 +21,9 @@ Here is a brief list describing the necessary high level components for this sys
 
 6. EAGLE PCB design software. I used [OSHPark](https://oshpark.com/) to manufacture the PCB and had no issues. 
 
-High Level System Requirements:
+# High Level System Requirements:
 
-Input Voltage Range: 36 - 80 Volts
-System current draw at 12 Volts: 1 amp
+Input Voltage Range: 36 - 72 Volts
+Max Power Output at 12V: 1.25 Amps
+
 
