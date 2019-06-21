@@ -23,7 +23,7 @@ Here is a brief list describing the necessary high level components for this sys
 
 # High Level System Requirements:
 
-Input Voltage Range: 36 - 72 Volts
-Max Power Output at 12V: 1.25 Amps
+1. Input Voltage Range: 36 - 72 Volts
+2. Max Power Output at 12V: 1.25 Amps
 
 
