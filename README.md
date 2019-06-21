@@ -21,6 +21,8 @@ Here is a brief list describing the necessary high level components for this sys
 
 6. EAGLE PCB design software. I used [OSHPark](https://oshpark.com/) to manufacture the PCB and had no issues. 
 
+7. Connectors. [Housing](https://www.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252B3K3gi96X). [Plug](https://www.mouser.com/ProductDetail/Molex/50-57-9402?qs=%2Fha2pyFaduiLH0020kLaRTyvVPMd9o3wI7LfZqK7vYk%3D). [Crimp Pin](https://www.mouser.com/ProductDetail/Molex/16-02-0086-Cut-Strip?qs=sGAEpiMZZMs%252BGHln7q6pm%252Bv5BXf4QdrTI%252BpAylNNmmH%2F60rOt1UzkQ%3D%3D)
+
 # High Level System Requirements:
 
 1. Input Voltage Range: 36 - 72 Volts
