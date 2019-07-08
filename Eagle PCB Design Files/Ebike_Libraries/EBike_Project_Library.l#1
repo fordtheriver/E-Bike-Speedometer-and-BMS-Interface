@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -159,54 +159,54 @@
 <library>
 <packages>
 <package name="NANO">
-<pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
-<pad name="RX1" x="5.08" y="-6.35" drill="0.8" shape="long"/>
-<pad name="RST1" x="5.08" y="-3.81" drill="0.8" shape="long"/>
-<pad name="GND1" x="5.08" y="-1.27" drill="0.8" shape="long"/>
-<pad name="D2" x="5.08" y="1.27" drill="0.8" shape="long"/>
-<pad name="D3" x="5.08" y="3.81" drill="0.8" shape="long"/>
-<pad name="D4" x="5.08" y="6.35" drill="0.8" shape="long"/>
-<pad name="D5" x="5.08" y="8.89" drill="0.8" shape="long"/>
-<pad name="D6" x="5.08" y="11.43" drill="0.8" shape="long"/>
-<pad name="D7" x="5.08" y="13.97" drill="0.8" shape="long"/>
-<pad name="D8" x="5.08" y="16.51" drill="0.8" shape="long"/>
-<pad name="D9" x="5.08" y="19.05" drill="0.8" shape="long"/>
+<pad name="TX0" x="5.08" y="-8.89" drill="1" shape="long"/>
+<pad name="RX1" x="5.08" y="-6.35" drill="1" shape="long"/>
+<pad name="RST1" x="5.08" y="-3.81" drill="1" shape="long"/>
+<pad name="GND1" x="5.08" y="-1.27" drill="1" shape="long"/>
+<pad name="D2" x="5.08" y="1.27" drill="1" shape="long"/>
+<pad name="D3" x="5.08" y="3.81" drill="1" shape="long"/>
+<pad name="D4" x="5.08" y="6.35" drill="1" shape="long"/>
+<pad name="D5" x="5.08" y="8.89" drill="1" shape="long"/>
+<pad name="D6" x="5.08" y="11.43" drill="1" shape="long"/>
+<pad name="D7" x="5.08" y="13.97" drill="1" shape="long"/>
+<pad name="D8" x="5.08" y="16.51" drill="1" shape="long"/>
+<pad name="D9" x="5.08" y="19.05" drill="1" shape="long"/>
 <pad name="RAW" x="-10.16" y="-8.89" drill="1" shape="long"/>
 <pad name="GND" x="-10.16" y="-6.35" drill="1" shape="long"/>
 <pad name="RST" x="-10.16" y="-3.81" drill="1" shape="long"/>
-<pad name="A3" x="-10.16" y="11.43" drill="0.8" shape="long"/>
-<pad name="A2" x="-10.16" y="13.97" drill="0.8" shape="long"/>
-<pad name="A1" x="-10.16" y="16.51" drill="0.8" shape="long"/>
-<pad name="A0" x="-10.16" y="19.05" drill="0.8" shape="long"/>
-<pad name="D13" x="-10.16" y="26.67" drill="0.8" shape="long"/>
-<pad name="D12" x="5.08" y="26.67" drill="0.8" shape="long"/>
-<pad name="D11" x="5.08" y="24.13" drill="0.8" shape="long"/>
-<pad name="D10" x="5.08" y="21.59" drill="0.8" shape="long"/>
-<pad name="3.3V" x="-10.16" y="24.13" drill="0.8" shape="long" rot="R180"/>
-<pad name="AREF" x="-10.16" y="21.59" drill="0.8" shape="long" rot="R180"/>
+<pad name="A3" x="-10.16" y="11.43" drill="1" shape="long"/>
+<pad name="A2" x="-10.16" y="13.97" drill="1" shape="long"/>
+<pad name="A1" x="-10.16" y="16.51" drill="1" shape="long"/>
+<pad name="A0" x="-10.16" y="19.05" drill="1" shape="long"/>
+<pad name="D13" x="-10.16" y="26.67" drill="1" shape="long"/>
+<pad name="D12" x="5.08" y="26.67" drill="1" shape="long"/>
+<pad name="D11" x="5.08" y="24.13" drill="1" shape="long"/>
+<pad name="D10" x="5.08" y="21.59" drill="1" shape="long"/>
+<pad name="3.3V" x="-10.16" y="24.13" drill="1" shape="long" rot="R180"/>
+<pad name="AREF" x="-10.16" y="21.59" drill="1" shape="long" rot="R180"/>
 <pad name="5V" x="-10.16" y="-1.27" drill="1" shape="long"/>
-<pad name="ICSP2" x="-5.08" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="ICSP4" x="-2.54" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="ICSP6" x="0" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="A4" x="-10.16" y="8.89" drill="0.8" shape="long" rot="R180"/>
-<pad name="A5" x="-10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="ICSP2" x="-5.08" y="-7.62" drill="1" rot="R90"/>
+<pad name="ICSP4" x="-2.54" y="-7.62" drill="1" rot="R90"/>
+<pad name="ICSP6" x="0" y="-7.62" drill="1" rot="R90"/>
+<pad name="A4" x="-10.16" y="8.89" drill="1" shape="long" rot="R180"/>
+<pad name="A5" x="-10.16" y="6.35" drill="1" shape="long" rot="R180"/>
 <pad name="A6" x="-10.16" y="3.81" drill="1" shape="long" rot="R180"/>
 <pad name="A7" x="-10.16" y="1.27" drill="1" shape="long" rot="R180"/>
-<pad name="ICSP1" x="-5.08" y="-10.16" drill="0.8" rot="R90"/>
-<pad name="ICSP3" x="-2.54" y="-10.16" drill="0.8" rot="R90"/>
-<pad name="ICSP5" x="0" y="-10.16" drill="0.8" rot="R90"/>
+<pad name="ICSP1" x="-5.08" y="-10.16" drill="1" rot="R90"/>
+<pad name="ICSP3" x="-2.54" y="-10.16" drill="1" rot="R90"/>
+<pad name="ICSP5" x="0" y="-10.16" drill="1" rot="R90"/>
 </package>
 <package name="SKM15C-12_DCDC">
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.127" layer="21"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.127" layer="21"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.127" layer="21"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="NC@3" x="2.54" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="-VIN" x="15.24" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="+VIN" x="10.16" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="TRIM" x="12.7" y="22.86" drill="1" diameter="2.1844"/>
-<pad name="-VOUT" x="22.86" y="22.86" drill="1" diameter="2.1844"/>
-<pad name="+VOUT" x="2.54" y="22.86" drill="1" diameter="2.1844"/>
+<pad name="NC@3" x="2.54" y="2.54" drill="1" diameter="1.778"/>
+<pad name="-VIN" x="15.24" y="2.54" drill="1" diameter="1.778"/>
+<pad name="+VIN" x="10.16" y="2.54" drill="1" diameter="1.778"/>
+<pad name="TRIM" x="12.7" y="22.86" drill="1" diameter="1.778"/>
+<pad name="-VOUT" x="22.86" y="22.86" drill="1" diameter="1.778"/>
+<pad name="+VOUT" x="2.54" y="22.86" drill="1" diameter="1.778"/>
 </package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:37654/1" locally_modified="yes">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -331,21 +331,20 @@
 <wire x1="10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 </package>
-<package name="0805" urn="urn:adsk.eagle:footprint:39617/1">
+<package name="0805" urn="urn:adsk.eagle:footprint:37400/1" locally_modified="yes">
 <description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<smd name="1" x="-1.154" y="0" dx="1.054" dy="1.2" layer="1"/>
+<smd name="2" x="1.154" y="0" dx="1.054" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.754" y1="0.8" x2="1.754" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.754" y1="0.8" x2="1.754" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.754" y1="-0.8" x2="-1.754" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.754" y1="-0.8" x2="-1.754" y2="0.8" width="0.0508" layer="39"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:39651/1" type="box">
+<package3d name="0805" urn="urn:adsk.eagle:package:39651/1" locally_modified="yes" type="box">
 <description>Generic 2012 (0805) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
 <packageinstances>
@@ -493,6 +492,28 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="CAPACITOR">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="CAPACITOR_POL">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BMS">
@@ -620,7 +641,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2PIN_CONN">
+<deviceset name="2PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_02" x="2.54" y="2.54"/>
 </gates>
@@ -631,12 +652,23 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 2P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252B3K3gi96X" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0001" constant="no"/>
+<attribute name="PRICE" value="0.84" constant="no"/>
+</technology>
+<technology name="BRYAN'S">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 2P single row" constant="no"/>
+<attribute name="LINK" value="" constant="no"/>
+<attribute name="PART_NUMBER" value="" constant="no"/>
+<attribute name="PRICE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3PIN_CONN">
+<deviceset name="3PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_03" x="2.54" y="5.08"/>
 </gates>
@@ -648,12 +680,17 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 3P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0002?qs=sGAEpiMZZMtVoztFdqDXO7H2KtVwxa9m" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0002" constant="no"/>
+<attribute name="PRICE" value="0.92" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4PIN_CONN">
+<deviceset name="4PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_04" x="5.08" y="5.08"/>
 </gates>
@@ -666,12 +703,17 @@
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 4P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252BzEvQtAM%2F8u3WZn5u47QKSoI%3D" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0003" constant="no"/>
+<attribute name="PRICE" value="0.99" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="0.3OHM" prefix="R">
+<deviceset name="RESISTOR_0805" prefix="R" uservalue="yes">
 <description>&lt;h3&gt;0.3Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
@@ -690,6 +732,80 @@
 <technology name="">
 <attribute name="PROD_ID" value="RES-11622"/>
 <attribute name="VALUE" value="0.3"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR_1UF" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39651/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 16V 1uF X7R 10% AEC-Q200" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/TDK/CGA4J2X7R1C105K125AA?qs=sGAEpiMZZMs0AnBnWHyRQEWjzA2rN6H9wYlJX5ghAes%3D" constant="no"/>
+<attribute name="PACKAGE" value="0805"/>
+<attribute name="PART_NUMBER" value="CGA4J2X7R1C105K125AA" constant="no"/>
+<attribute name="PRICE" value="0.08" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR_POLAR_4.7UF" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39651/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 16volts 4.7uF 20% Molded Case, 0805" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Vishay-Sprague/TMCP1C475MTRF?qs=sGAEpiMZZMuEN2agSAc2prL8TSVBEr4qhfGzNWmpY58%252BLcjxpCNYUg%3D%3D" constant="no"/>
+<attribute name="PART_NUMBER" value="TMCP1C475MTRF" constant="no"/>
+<attribute name="PRICE" value="0.62" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR_100NF" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39651/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 50V 0.1uF 10% X7R AEC-Q200" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Taiyo-Yuden/UMK212B7104KGHT?qs=sGAEpiMZZMs0AnBnWHyRQNbg85K4ab%2F3SCTzhAxY5ms%3D" constant="no"/>
+<attribute name="PACKAGE" value="0805"/>
+<attribute name="PART_NUMBER" value="UMK212B7104KGHT" constant="no"/>
+<attribute name="PRICE" value="0.073" constant="no"/>
 </technology>
 </technologies>
 </device>
