@@ -5,12 +5,13 @@ double bikeVel;
 double pi = 3.14159265;
 double w = 0;
 double Distance = 0.0;
-double Distance_mem;
+double Distance_mem = 186.46;
+int savedDistance = 0;
 int wheelDiam_in = 26;
 int timeDelay = 2000;
-unsigned long rotCount_old;
+unsigned long rotCount_old = 0;
 unsigned long oldTime = 2000;
-volatile unsigned long rotCount = 0;;
+volatile unsigned long rotCount = 0;
 volatile unsigned long lastTime;
 volatile double interval = 10000000;
 volatile int HallIn = 2;
@@ -59,7 +60,12 @@ void setup() {
   setDisplay(); // See setDisplay function
 
   //Retrive mileage data
-  EEPROM.get(addr, Distance);
+
+  if(EEPROM.read(addr) == 255){
+    Distance = Distance_mem;
+  }else{
+    EEPROM.get(addr, Distance);
+  }
 }
 
 struct Packet1 {
@@ -89,29 +95,31 @@ union ByteSwap {
 
 
 void loop() {
-  
+
   //if two seconds have passed since last save & the wheel has rotated, calculate new milage and save
-  if (millis() - oldTime > timeDelay && rotCount_old != rotCount) { 
+  if (millis() - oldTime > timeDelay && rotCount_old != rotCount) {
     Distance = Distance + pi * wheelDiam_in / 12 / 5280 * (rotCount - rotCount_old);
+    Serial.print("Distance ");
+    Serial.println(Distance);
     EEPROM.put(addr, Distance); //saves mileage to specificed address in EEPROM
     rotCount_old = rotCount;
     oldTime = millis();
-
-    //Distance Display Formatting
-    if (Distance > 999.99) {
-      lcd.setCursor(8, 0); lcd.print(Distance, 2);
-    }
-    else if (Distance > 99.99) {
-      lcd.setCursor(9, 0); lcd.print(Distance, 2);
-    }
-    else if (Distance > 9.99) {
-      lcd.setCursor(10, 0); lcd.print(Distance, 2);
-    }
-    else {
-      lcd.setCursor(11, 0); lcd.print(Distance, 2);
-    }
   }
-  
+
+  //Distance Display Formatting
+  if (Distance > 999.99) {
+    lcd.setCursor(8, 0); lcd.print(Distance, 2);
+  }
+  else if (Distance > 99.99) {
+    lcd.setCursor(9, 0); lcd.print(Distance, 2);
+  }
+  else if (Distance > 9.99) {
+    lcd.setCursor(10, 0); lcd.print(Distance, 2);
+  }
+  else {
+    lcd.setCursor(11, 0); lcd.print(Distance, 2);
+  }
+
   //Velocity Calculation and Display
   w = 1 / (interval / 1000);
   bikeVel = w * pi * 3600 * wheelDiam_in / 12 / 5280;
@@ -162,12 +170,12 @@ void loop() {
   Serial.println(); Serial.print("Number of Bytes received: "); Serial.println(n2);
 
   double min_Voltage_V = 5; int index;
-  double Total_Voltage_V = 0; 
+  double Total_Voltage_V = 0;
   for (int i = 1; i < 16; i++) {
     ByteSwap.b_array[0] = converter2.d[2 * i + 3]; ByteSwap.b_array[1] = converter2.d[2 * i + 2];
     Voltages_V[i] = (double)ByteSwap.swapped / 1000;
     Total_Voltage_V = Total_Voltage_V + Voltages_V[i]; //Add cell voltage to sum of voltages.
-    if(Voltages_V[i] < min_Voltage_V){
+    if (Voltages_V[i] < min_Voltage_V) {
       index = i;
       min_Voltage_V = Voltages_V[i];
     }
@@ -175,11 +183,11 @@ void loop() {
   }
 
   lcd.setCursor(11, 2); lcd.print(Voltages_V[index], 2);
-  Serial.print("Min Voltage: "); Serial.println(Voltages_V[index],3); 
+  Serial.print("Min Voltage: "); Serial.println(Voltages_V[index], 3);
   Serial.print("Index Num: "); Serial.println(index);
 
-  double Power_W = Total_Voltage_V*Current_A;
-  Serial.print("Power: "); Serial.println(Power_W,2); Serial.println();
+  double Power_W = Total_Voltage_V * Current_A;
+  Serial.print("Power: "); Serial.println(Power_W, 2); Serial.println();
   lcd.setCursor(11, 3); lcd.print(Power_W, 1);
 
 }
