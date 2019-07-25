@@ -1,6 +1,6 @@
 # E-Bike-Speedometer-and-BMS-Interface
 
-**Updated 6/21/19** Completed REV3
+**Updated 7/25/19** Completed, manufactured, and test REV4 of board. It works! Currently updated REV3 to include a connector for a 12V headlight. 
 
 This repository includes information needed to built a display to output relevant information for an electric bicycle. Speed, mileage, power, current, pack voltage and individual cell voltages are some of the values that this system can output. The five components in this system include an Arduino Nano, 20x4 LCD screen, a JBDTools-based Battery Management System, DC/DC converter and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
@@ -8,7 +8,7 @@ My ebike uses the Cyclone 3000 ebike kit. The throttle/ignition has a built in s
 
 Here is a brief list describing the necessary high level components for this system.
 
-1. Arduino Nano. REV4 will embed the ATmega328P micrcoprocessor on the board to significantly reduce system size and weight. 
+1. Arduino Nano. REV4 embeds the ATmega328P micrcoprocessor on the board to significantly reduce system size and weight.
 
 2. [20x4 LCD Display with I2C.](https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=20x4+i2c+lcd+&_sacat=0). The I2C communication bus drastically reduces the number of wires going to the LCD and the \#include <LiquidCrystal_I2C.h> library seamlessly integrates the I2C protocol into your arduino. 
 
