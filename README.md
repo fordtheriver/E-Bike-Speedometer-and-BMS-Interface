@@ -1,14 +1,17 @@
 # E-Bike-Speedometer-and-BMS-Interface
 
-**Updated 7/25/19** Completed, manufactured, and test REV4 of board. It works! Currently updated REV3 to include a connector for a 12V headlight. 
+**Updated 7/25/19** Completed, manufactured, and test REV4 of board. It works! REV3 is also complete.
 
-This repository includes information needed to built a display to output relevant information for an electric bicycle. Speed, mileage, power, current, pack voltage and individual cell voltages are some of the values that this system can output. The five components in this system include an Arduino Nano, 20x4 LCD screen, a JBDTools-based Battery Management System, DC/DC converter and a Hall-Effect Sensor. This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
+This repository includes information needed to built a display to output the speed, mileage, power, current, pack voltage, individual cell voltage abd State of Charge of an electric bicycle/powerwall using an Arduino Nano! This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
-My ebike uses the Cyclone 3000 ebike kit. The throttle/ignition has a built in switch on the B+ line. My system draws power from the B+ after this switch so that if the switch opens, the system turns off. I recommend configuring your system this way so that it only draws power when the bike is on.
+There are two versions of this system which you can build:
+**REV3:** This is a simple board that requires little soldering or PCB design experience. Beginners start here!
+**REV4:** This board is identical to REV3 but it embedds the arduino nano onto the board, instead of through-hole mounting a off-the-shelf arduino nano. 
+Both REV's function identically. Think of REV3 as a demo board where you can develop firmware and prototype the system. REV4 gets into the low level side and allows for greater custimizations and smaller size.
 
 Here is a brief list describing the necessary high level components for this system.
 
-1. Arduino Nano. REV4 embeds the ATmega328P micrcoprocessor on the board to significantly reduce system size and weight.
+1. Arduino Nano. REV4 embeds the ATmega328P micrcoprocessor on the board to significantly reduce system size and weight. 
 
 2. [20x4 LCD Display with I2C.](https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=20x4+i2c+lcd+&_sacat=0). The I2C communication bus drastically reduces the number of wires going to the LCD and the \#include <LiquidCrystal_I2C.h> library seamlessly integrates the I2C protocol into your arduino. 
 
@@ -26,5 +29,9 @@ Here is a brief list describing the necessary high level components for this sys
 
 1. Input Voltage Range: 36 - 72 Volts
 2. Max Power Output at 12V: 1.25 Amps
+
+# Good Tips:
+
+My ebike uses the Cyclone 3000 ebike kit. The throttle/ignition has a built in switch on the B+ line. My system draws power from the B+ after this switch so that if the switch opens, the system turns off. I recommend configuring your system this way so that it only draws power when the bike is on.
 
 
