@@ -4,9 +4,9 @@
 
 This repository includes information needed to built a display to output the speed, mileage, power, current, pack voltage, individual cell voltage abd State of Charge of an electric bicycle/powerwall using an Arduino Nano! This repository includes the necessary Arduino files, a custom Arduino shield PCB designed in EAGLE and various information about the components required to build this system.
 
-There are two versions of this system which you can build:
-**REV3:** This is a simple board that requires little soldering or PCB design experience. Beginners start here!
-**REV4:** This board is identical to REV3 but it embedds the arduino nano onto the board, instead of through-hole mounting a off-the-shelf arduino nano. 
+There are two versions of this system which you can build: <br /> 
+**REV3:** This is a simple board that requires little soldering or PCB design experience. Beginners start here! <br /> 
+**REV4:** This board is identical to REV3 but it embedds the arduino nano onto the board, instead of through-hole mounting a off-the-shelf arduino nano. <br /> 
 Both REV's function identically. Think of REV3 as a demo board where you can develop firmware and prototype the system. REV4 gets into the low level side and allows for greater custimizations and smaller size.
 
 Here is a brief list describing the necessary high level components for this system.
