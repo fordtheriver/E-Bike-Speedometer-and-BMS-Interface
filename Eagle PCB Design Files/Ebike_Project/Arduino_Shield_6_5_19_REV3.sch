@@ -9,25 +9,25 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,15 +108,33 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="test-probe" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -160,17 +181,26 @@
 <libraries>
 <library name="EBike_Project_Library">
 <packages>
+<package name="0805" urn="urn:adsk.eagle:footprint:37400/1" locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-1.154" y="0" dx="1.054" dy="1.2" layer="1"/>
+<smd name="2" x="1.154" y="0" dx="1.054" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.754" y1="0.8" x2="1.754" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.754" y1="0.8" x2="1.754" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.754" y1="-0.8" x2="-1.754" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.754" y1="-0.8" x2="-1.754" y2="0.8" width="0.0508" layer="39"/>
+</package>
 <package name="SKM15C-12_DCDC">
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.127" layer="21"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.127" layer="21"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.127" layer="21"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="NC@3" x="2.54" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="-VIN" x="15.24" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="+VIN" x="10.16" y="2.54" drill="1" diameter="2.1844"/>
-<pad name="TRIM" x="12.7" y="22.86" drill="1" diameter="2.1844"/>
-<pad name="-VOUT" x="22.86" y="22.86" drill="1" diameter="2.1844"/>
-<pad name="+VOUT" x="2.54" y="22.86" drill="1" diameter="2.1844"/>
+<pad name="-VIN" x="15.24" y="2.54" drill="1" diameter="1.778"/>
+<pad name="+VIN" x="10.16" y="2.54" drill="1" diameter="1.778"/>
+<pad name="-VOUT" x="22.86" y="22.86" drill="1" diameter="1.778"/>
+<pad name="+VOUT" x="2.54" y="22.86" drill="1" diameter="1.778"/>
 </package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:37654/1" locally_modified="yes">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -295,18 +325,6 @@
 <wire x1="10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 </package>
-<package name="0805" urn="urn:adsk.eagle:footprint:39617/1">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-</package>
 <package name="NANO">
 <pad name="TX0" x="5.08" y="-8.89" drill="1" shape="long"/>
 <pad name="RX1" x="5.08" y="-6.35" drill="1" shape="long"/>
@@ -347,7 +365,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:39651/1" type="box">
+<package3d name="0805" urn="urn:adsk.eagle:package:39651/1" locally_modified="yes" type="box">
 <description>Generic 2012 (0805) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
 <packageinstances>
@@ -356,11 +374,6 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="LVS_GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 <symbol name="SKM15C-12_DCDC">
 <wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
@@ -431,6 +444,13 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="GROUND">
+<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.508" x2="1.016" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.016" x2="0.508" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-0.127" y1="-1.524" x2="0.127" y2="-1.524" width="0.254" layer="94"/>
+<pin name="COM" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 <symbol name="NANO">
 <pin name="3.3V" x="-22.86" y="12.7" visible="pin" length="middle"/>
 <pin name="AREF" x="-22.86" y="10.16" visible="pin" length="middle"/>
@@ -476,21 +496,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LVS_GND" prefix="LVS_GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="LVS_GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SKM15C-12_DCDC">
 <gates>
 <gate name="G$1" symbol="SKM15C-12_DCDC" x="0" y="0"/>
@@ -504,12 +509,17 @@
 <connect gate="G$1" pin="-VOUT" pad="-VOUT"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Isolated DC/DC Converters 15W 36-75Vin 12Vout 125-1250mA 1x1 size" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/MEAN-WELL/SKM15C-12?qs=%2Fha2pyFaduhh55LLYaK%2FKJ2VcEvgwt5xUEx7a8eNZIE%3D" constant="no"/>
+<attribute name="PART_NUMBER" value=" SKM15C-12" constant="no"/>
+<attribute name="PRICE" value="25.44" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2PIN_CONN">
+<deviceset name="2PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_02" x="2.54" y="2.54"/>
 </gates>
@@ -520,12 +530,23 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 2P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252B3K3gi96X" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0001" constant="no"/>
+<attribute name="PRICE" value="0.84" constant="no"/>
+</technology>
+<technology name="BRYAN'S">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 2P single row" constant="no"/>
+<attribute name="LINK" value="" constant="no"/>
+<attribute name="PART_NUMBER" value="" constant="no"/>
+<attribute name="PRICE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3PIN_CONN">
+<deviceset name="3PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_03" x="2.54" y="5.08"/>
 </gates>
@@ -537,12 +558,17 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 3P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0002?qs=sGAEpiMZZMtVoztFdqDXO7H2KtVwxa9m" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0002" constant="no"/>
+<attribute name="PRICE" value="0.92" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4PIN_CONN">
+<deviceset name="4PIN_.1&quot;_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="CONN_04" x="5.08" y="5.08"/>
 </gates>
@@ -555,12 +581,17 @@
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings VERTICAL HDR 4P single row" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252BzEvQtAM%2F8u3WZn5u47QKSoI%3D" constant="no"/>
+<attribute name="PART_NUMBER" value="70543-0003" constant="no"/>
+<attribute name="PRICE" value="0.99" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="0.3OHM" prefix="R">
+<deviceset name="RESISTOR_4.99K_0805" prefix="R" uservalue="yes">
 <description>&lt;h3&gt;0.3Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
@@ -577,14 +608,29 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-11622"/>
-<attribute name="VALUE" value="0.3"/>
+<attribute name="DESCRIPTION" value="Thick Film Resistors 1/8Watt 4.99Kohms 1% Commercial Use" constant="no"/>
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8g%2F7ymnn7FEGW0GG%2FpsF6WEQ%3D%3D" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="PART_NUMBER" value="CRCW08054K99FKEAC" constant="no"/>
+<attribute name="PRICE" value="0.1" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NANO">
+<deviceset name="GROUND">
+<gates>
+<gate name="G$1" symbol="GROUND" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARDUINO_NANO">
 <description>Arduino Nano</description>
 <gates>
 <gate name="G$1" symbol="NANO" x="7.62" y="2.54"/>
@@ -648,23 +694,23 @@
 <packages>
 </packages>
 <symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 <symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
+<gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -674,10 +720,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -729,8 +775,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="POWER" width="0.762" drill="0">
 <clearance class="1" value="0.762"/>
@@ -797,7 +842,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <port name="TX_NANO" side="left" coord="0" direction="pas"/>
 <port name="5V_VCC_RED" side="right" coord="22.86" direction="pwr"/>
 <port name="LCD_SCL_BLUE" side="right" coord="20.32" direction="pwr"/>
-<port name="LCD_SDA_GREEN" side="right" coord="17.78" direction="pwr"/>
+<port name="LCD_SDA_GREEN_A4" side="right" coord="17.78" direction="pwr"/>
 <port name="B-_ECU@DASH" side="right" coord="15.24" direction="pwr"/>
 <port name="B+" side="left" coord="22.86" direction="pwr"/>
 <port name="+12V" side="right" coord="0" direction="pwr"/>
@@ -808,199 +853,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="U$1" library="EBike_Project_Library" deviceset="NANO" device=""/>
-<part name="LVS_GND1" library="EBike_Project_Library" deviceset="LVS_GND" device=""/>
-<part name="LVS_GND2" library="EBike_Project_Library" deviceset="LVS_GND" device=""/>
-<part name="BMS" library="EBike_Project_Library" deviceset="4PIN_CONN" device=""/>
-<part name="R1" library="EBike_Project_Library" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="10k"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
-<part name="GND1" library="EBike_Project_Library" deviceset="LVS_GND" device="" value="LVS_GND"/>
-<part name="U$2" library="EBike_Project_Library" deviceset="SKM15C-12_DCDC" device=""/>
-<part name="DASH" library="EBike_Project_Library" deviceset="4PIN_CONN" device=""/>
-<part name="HEADLIGHT" library="EBike_Project_Library" deviceset="2PIN_CONN" device=""/>
-<part name="LVS_GND3" library="EBike_Project_Library" deviceset="LVS_GND" device=""/>
-<part name="POWER" library="EBike_Project_Library" deviceset="2PIN_CONN" device=""/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+12V"/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+12V"/>
-<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+12V"/>
-<part name="HALL-SENSOR" library="EBike_Project_Library" deviceset="3PIN_CONN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="114.3" y="127" size="1.778" layer="91">36-72V/12V DCDC</text>
-<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="4" layer="91"/>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="147.32" y="99.06" smashed="yes"/>
-<instance part="LVS_GND1" gate="1" x="147.32" y="129.54" smashed="yes"/>
-<instance part="LVS_GND2" gate="1" x="167.64" y="104.14" smashed="yes"/>
-<instance part="BMS" gate="G$1" x="182.88" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="182.88" y="117.348" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="R1" gate="G$1" x="172.72" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="168.91" y="92.9386" size="1.778" layer="95"/>
-</instance>
-<instance part="P+3" gate="VCC" x="175.26" y="101.6" smashed="yes"/>
-<instance part="GND1" gate="1" x="167.64" y="83.82" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="114.3" y="129.54" smashed="yes"/>
-<instance part="DASH" gate="G$1" x="91.44" y="91.44" smashed="yes">
-<attribute name="NAME" x="86.36" y="99.568" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="HEADLIGHT" gate="G$1" x="88.9" y="111.76" smashed="yes">
-<attribute name="NAME" x="86.36" y="117.348" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="LVS_GND3" gate="1" x="109.22" y="109.22" smashed="yes"/>
-<instance part="POWER" gate="G$1" x="88.9" y="132.08" smashed="yes">
-<attribute name="NAME" x="86.36" y="137.668" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY1" gate="1" x="147.32" y="137.16" smashed="yes">
-<attribute name="VALUE" x="146.05" y="138.43" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY2" gate="1" x="109.22" y="116.84" smashed="yes">
-<attribute name="VALUE" x="107.95" y="118.11" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY3" gate="1" x="114.3" y="83.82" smashed="yes">
-<attribute name="VALUE" x="113.03" y="85.09" size="1.778" layer="96"/>
-</instance>
-<instance part="HALL-SENSOR" gate="G$1" x="185.42" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="177.8" y="94.488" size="1.778" layer="95" font="vector"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="RX_NANO" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D10"/>
-<wire x1="177.8" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
-<label x="165.1" y="109.22" size="1.778" layer="95"/>
-<pinref part="BMS" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="LCD_SDA_GREEN" class="0">
-<segment>
-<wire x1="96.52" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A4"/>
-<label x="99.06" y="96.52" size="1.778" layer="95"/>
-<pinref part="DASH" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="LCD_SCL_BLUE" class="0">
-<segment>
-<wire x1="96.52" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A5"/>
-<label x="99.06" y="93.98" size="1.778" layer="95"/>
-<pinref part="DASH" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<label x="99.06" y="91.44" size="1.778" layer="95"/>
-<wire x1="96.52" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="5.5V"/>
-<wire x1="121.92" y1="91.44" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="DASH" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="172.72" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
-<junction x="172.72" y="99.06"/>
-<wire x1="175.26" y1="99.06" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-<label x="177.8" y="99.06" size="1.778" layer="95"/>
-<pinref part="HALL-SENSOR" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="D2_HALL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D2"/>
-<wire x1="157.48" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
-<label x="160.02" y="88.9" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="HALL-SENSOR" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="B-_ECU" class="0">
-<segment>
-<wire x1="134.62" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
-<label x="134.62" y="132.08" size="1.778" layer="95"/>
-<pinref part="LVS_GND1" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="-VOUT"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="LVS_GND2" gate="1" pin="GND"/>
-<pinref part="BMS" gate="G$1" pin="4"/>
-<label x="162.56" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="167.64" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
-<label x="162.56" y="81.28" size="1.778" layer="95"/>
-<pinref part="HALL-SENSOR" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<pinref part="HEADLIGHT" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="LVS_GND3" gate="1" pin="GND"/>
-<label x="99.06" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="99.06" y="88.9" size="1.778" layer="95"/>
-<wire x1="96.52" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="88.9" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="DASH" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="-VIN"/>
-<wire x1="111.76" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
-<label x="99.06" y="132.08" size="1.778" layer="95"/>
-<pinref part="POWER" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="+12V" class="0">
-<segment>
-<pinref part="HEADLIGHT" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="1" pin="V+"/>
-<label x="99.06" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="RAW"/>
-<wire x1="124.46" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="78.74" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="1" pin="V+"/>
-<label x="116.84" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<label x="134.62" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="+VOUT"/>
-<pinref part="SUPPLY1" gate="1" pin="V+"/>
-</segment>
-</net>
-<net name="B+" class="0">
-<segment>
-<pinref part="POWER" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="+VIN"/>
-<wire x1="96.52" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
-<label x="99.06" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TX_NANO" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D11"/>
-<pinref part="BMS" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<label x="167.64" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -1153,12 +1015,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="B-_CONTR1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="B-"/>
 <part name="B-_CONTR2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="B-"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="B-_ECU"/>
+<part name="CXTR_BMS" library="EBike_Project_Library" deviceset="4PIN_.1&quot;_CONNECTOR" device=""/>
+<part name="R1" library="EBike_Project_Library" deviceset="RESISTOR_4.99K_0805" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="4.99"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
+<part name="U$2" library="EBike_Project_Library" deviceset="SKM15C-12_DCDC" device=""/>
+<part name="CXTR_DASH" library="EBike_Project_Library" deviceset="4PIN_.1&quot;_CONNECTOR" device=""/>
+<part name="CXTR_HEADLIGHT" library="EBike_Project_Library" deviceset="2PIN_.1&quot;_CONNECTOR" device=""/>
+<part name="CXTR_POWER" library="EBike_Project_Library" deviceset="2PIN_.1&quot;_CONNECTOR" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+12V"/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="+12V"/>
+<part name="CXTR_HALL_SENSOR" library="EBike_Project_Library" deviceset="3PIN_.1&quot;_CONNECTOR" device=""/>
+<part name="U$1" library="EBike_Project_Library" deviceset="GROUND" device=""/>
+<part name="U$4" library="EBike_Project_Library" deviceset="GROUND" device=""/>
+<part name="U$5" library="EBike_Project_Library" deviceset="GROUND" device=""/>
+<part name="U$6" library="EBike_Project_Library" deviceset="GROUND" device=""/>
+<part name="U$7" library="EBike_Project_Library" deviceset="GROUND" device=""/>
+<part name="U$3" library="EBike_Project_Library" deviceset="ARDUINO_NANO" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <frame x1="-5.08" y1="-40.64" x2="279.4" y2="215.9" columns="8" rows="5" layer="91"/>
-<text x="55.88" y="5.08" size="1.778" layer="91">Connector Housing Series 70543 - Part No: 7054300XX</text>
+<text x="55.88" y="5.08" size="1.778" layer="91">Connector Housing Series 70543 - Part No: 705430004 (4 PIN)</text>
 <text x="55.88" y="0" size="1.778" layer="91">Connector Plug Series 70066 - Part No: 505794XX</text>
 <text x="55.88" y="-5.08" size="1.778" layer="91">Connector Crimp Series 70058 - Part No:  16020086</text>
 <text x="55.88" y="-15.24" size="1.778" layer="91">Wire to Wire Housing Crimp: 70021-1021</text>
@@ -1232,7 +1110,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="129.54" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RX_NANO" class="0">
+<net name="RX_NANO_D10" class="0">
 <segment>
 <portref moduleinst="BMS" port="TX_BMS"/>
 <portref moduleinst="ECU" port="RX_NANO"/>
@@ -1362,7 +1240,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="LCD_SDA" class="0">
 <segment>
-<portref moduleinst="ECU" port="LCD_SDA_GREEN"/>
+<portref moduleinst="ECU" port="LCD_SDA_GREEN_A4"/>
 <portref moduleinst="DASH" port="LCD_SDA_GREEN"/>
 <wire x1="195.58" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -1390,6 +1268,206 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="78.74" y1="109.22" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <portref moduleinst="THROTTLE" port="V-_HALL"/>
 <wire x1="78.74" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="203.2" y="182.88" size="1.778" layer="91">36-72V/12V DCDC</text>
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="8" rows="5" layer="91"/>
+<text x="195.58" y="198.12" size="3.81" layer="94" ratio="10">CONNECTORS</text>
+</plain>
+<instances>
+<instance part="CXTR_BMS" gate="G$1" x="248.92" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="248.92" y="175.768" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R1" gate="G$1" x="238.76" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.68" y="153.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="233.68" y="153.416" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="P+3" gate="VCC" x="241.3" y="160.02" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="203.2" y="185.42" smashed="yes"/>
+<instance part="CXTR_DASH" gate="G$1" x="180.34" y="147.32" smashed="yes">
+<attribute name="NAME" x="175.26" y="155.448" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="CXTR_HEADLIGHT" gate="G$1" x="177.8" y="167.64" smashed="yes">
+<attribute name="NAME" x="175.26" y="173.228" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="CXTR_POWER" gate="G$1" x="177.8" y="187.96" smashed="yes">
+<attribute name="NAME" x="175.26" y="193.548" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SUPPLY1" gate="1" x="236.22" y="193.04" smashed="yes">
+<attribute name="VALUE" x="234.95" y="194.31" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="1" x="198.12" y="172.72" smashed="yes">
+<attribute name="VALUE" x="196.85" y="173.99" size="1.778" layer="96"/>
+</instance>
+<instance part="CXTR_HALL_SENSOR" gate="G$1" x="251.46" y="147.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="243.84" y="152.908" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="U$1" gate="G$1" x="198.12" y="165.1" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="213.36" y="142.24" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="236.22" y="185.42" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="233.68" y="162.56" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="233.68" y="142.24" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="96.52" y="172.72" smashed="yes"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="D2_HALL" class="0">
+<segment>
+<wire x1="223.52" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<label x="226.06" y="147.32" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="CXTR_HALL_SENSOR" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D2"/>
+<wire x1="106.68" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<label x="109.22" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX_NANO_D10" class="0">
+<segment>
+<wire x1="243.84" y1="167.64" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
+<label x="226.06" y="167.64" size="1.778" layer="95"/>
+<pinref part="CXTR_BMS" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D10"/>
+<wire x1="106.68" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<label x="109.22" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_SCL_A5" class="0">
+<segment>
+<wire x1="185.42" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
+<label x="187.96" y="149.86" size="1.778" layer="95"/>
+<pinref part="CXTR_DASH" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="A5"/>
+<wire x1="73.66" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
+<label x="55.88" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B-_ECU" class="0">
+<segment>
+<wire x1="223.52" y1="187.96" x2="236.22" y2="187.96" width="0.1524" layer="91"/>
+<label x="223.52" y="187.96" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="-VOUT"/>
+<pinref part="U$5" gate="G$1" pin="COM"/>
+</segment>
+<segment>
+<wire x1="243.84" y1="165.1" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="CXTR_BMS" gate="G$1" pin="4"/>
+<label x="223.52" y="160.02" size="1.778" layer="95"/>
+<pinref part="U$6" gate="G$1" pin="COM"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
+<label x="223.52" y="139.7" size="1.778" layer="95"/>
+<pinref part="CXTR_HALL_SENSOR" gate="G$1" pin="3"/>
+<pinref part="U$7" gate="G$1" pin="COM"/>
+</segment>
+<segment>
+<pinref part="CXTR_HEADLIGHT" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<label x="187.96" y="167.64" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="COM"/>
+</segment>
+<segment>
+<label x="187.96" y="144.78" size="1.778" layer="95"/>
+<wire x1="185.42" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="CXTR_DASH" gate="G$1" pin="1"/>
+<pinref part="U$4" gate="G$1" pin="COM"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="-VIN"/>
+<wire x1="200.66" y1="187.96" x2="185.42" y2="187.96" width="0.1524" layer="91"/>
+<label x="187.96" y="187.96" size="1.778" layer="95"/>
+<pinref part="CXTR_POWER" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="73.66" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
+<label x="55.88" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<label x="187.96" y="147.32" size="1.778" layer="95"/>
+<wire x1="185.42" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="CXTR_DASH" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="238.76" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
+<junction x="238.76" y="157.48"/>
+<wire x1="241.3" y1="157.48" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
+<label x="243.84" y="157.48" size="1.778" layer="95"/>
+<pinref part="CXTR_HALL_SENSOR" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="5.5V"/>
+<wire x1="73.66" y1="160.02" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
+<label x="55.88" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="CXTR_HEADLIGHT" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="1" pin="V+"/>
+<label x="187.96" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="190.5" x2="236.22" y2="190.5" width="0.1524" layer="91"/>
+<label x="223.52" y="190.5" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="+VOUT"/>
+<pinref part="SUPPLY1" gate="1" pin="V+"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="RAW"/>
+<wire x1="73.66" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<label x="55.88" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX_NANO_D11" class="0">
+<segment>
+<pinref part="CXTR_BMS" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="170.18" x2="243.84" y2="170.18" width="0.1524" layer="91"/>
+<label x="226.06" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D11"/>
+<wire x1="106.68" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
+<label x="109.22" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_SDA_A4" class="0">
+<segment>
+<pinref part="CXTR_DASH" gate="G$1" pin="4"/>
+<wire x1="185.42" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
+<label x="187.96" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="A4"/>
+<wire x1="73.66" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<label x="55.88" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B+" class="0">
+<segment>
+<pinref part="CXTR_POWER" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="+VIN"/>
+<wire x1="185.42" y1="190.5" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
+<label x="187.96" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
