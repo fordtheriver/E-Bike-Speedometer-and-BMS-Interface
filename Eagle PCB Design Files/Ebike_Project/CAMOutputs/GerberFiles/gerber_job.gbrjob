@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-28T19:57:31Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Arduino_Shield_6_5_19_REV4"
+        },
+        "Owner": "Bryan Ford <btf2@uw.edu>",
+        "Size": {
+            "X": 29.21,
+            "Y": 58.42
+        }
+    }
+}

@@ -193,10 +193,10 @@
 <wire x1="-1.754" y1="-0.8" x2="-1.754" y2="0.8" width="0.0508" layer="39"/>
 </package>
 <package name="SKM15C-12_DCDC">
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0.127" layer="22"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.127" layer="22"/>
-<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.127" layer="22"/>
-<wire x1="0" y1="25.4" x2="0" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.127" layer="21"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.127" layer="21"/>
+<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.127" layer="21"/>
+<wire x1="0" y1="25.4" x2="0" y2="0" width="0.127" layer="21"/>
 <pad name="-VIN" x="15.24" y="2.54" drill="1" diameter="1.778"/>
 <pad name="+VIN" x="10.16" y="2.54" drill="1" diameter="1.778"/>
 <pad name="-VOUT" x="22.86" y="22.86" drill="1" diameter="1.778"/>
