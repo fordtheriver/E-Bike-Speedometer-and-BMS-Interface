@@ -27,11 +27,14 @@ Here is a brief list describing the necessary high level components for this sys
 
 # High Level System Requirements:
 
-1. Input Voltage Range: 36 - 72 Volts
-2. Max Power Output at 12V: 1.25 Amps
+1. Input Voltage Range: 18 - 72 Volts
+2. Max Power Output at 12V: 1.67 Amps (20W)
+3. Reverse polarity and fuse protection on power input
 
 # Good Tips:
 
 My ebike uses the Cyclone 3000 ebike kit. The throttle/ignition has a built in switch on the B+ line. My system draws power from the B+ after this switch so that if the switch opens, the system turns off. I recommend configuring your system this way so that it only draws power when the bike is on.
+
+
 
 
